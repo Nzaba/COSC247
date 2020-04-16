@@ -22,14 +22,7 @@ You’ll submit a file in the format of `submission-example.txt`. This file has 
 
 ## Performance Measure
 
-Your score, given a set of predictions, will be the Root Mean Squared Error (RMSE) of your predictions:
-
-
-$\begin{aligned}
-&\sqrt{\frac{1}{2 n} \sum_{i=1}^{n}\left(\operatorname{lat}^{(i)}-\operatorname{lat}^{(i)}\right)^{2}+\left(\operatorname{lon}^{(i)}-\operatorname{lon}^{(i)}\right)^{2}}\\
-&=\frac{1}{\sqrt{2 n}} \sqrt{\sum_{i=1}^{n}\left(\operatorname{lat}^{(i)}-\operatorname{lat}^{(i)}\right)^{2}+\left(\operatorname{lon}^{(i)}-\operatorname{lon}^{(i)}\right)^{2}}
-\end{aligned}$
-
+Your score, given a set of predictions, will be the Root Mean Squared Error (RMSE) of your predictions.
 
 ## How To Run:
 
